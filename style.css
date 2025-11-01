@@ -17,25 +17,26 @@ body {
     top: 0;
     z-index: 10;
     background-color: #fff;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid black;
 }
 .container {
     width: min(1100px, 92%);
     margin: 0 auto;
+    background-color: white;
 
 }
  
 .row {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
 display: inline-block;
 font-weight:800;
 text-decoration: none;
-color: blue;
+color: black;
 font-size: 1.5rem;
 padding: 1.5% 0;
 }
@@ -48,7 +49,8 @@ padding: 1.5% 0;
 }
 
 nav a:hover {
-    background-color: royalblue;
+    background-color: black;
+    color: #fff;
 }
 
   
@@ -58,6 +60,29 @@ nav a:hover {
     gap: 1.5rem;
     align-items: center;
  }
+ .hero-img {
+    
+ }
  .hero-text {
     max-width: 45%;
  }
+  section > input:hover {
+    background-color: greenyellow
+  }
+  h6:hover {
+ background-color: black;
+ color: white;
+  } 
+  h5:hover {
+    background-color: black;
+    color: white;
+     } 
+
+    footer:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    main {
+        background-color: black;
+    }
